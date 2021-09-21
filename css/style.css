@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Hiragino Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 200);
+}
+.container {
+  margin: 2% 1% 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-title {
+  color: rgb(0, 0, 200);
+  font-size: 2.3rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.4rem;
+}
+nav li {
+  margin: 0px 14px;
+}
+nav a {
+  font-weight: bold;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  flex: 1;
+}
+h2 {
+  font-size: 5vw;
+  margin-top: 44.5%;
+  font-weight: normal;
+}
+.pict {
+  flex: 1;
+}
+img {
+  width: 100%;
+}
+.item {
+  background-color: rgb(0, 0, 130);
+  width: 75%;
+  height: 180px;
+  margin-top: -6.5%;
+  margin-right: -15%;
+  margin-bottom: 2%;
+}
